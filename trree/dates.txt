@@ -1,0 +1,25 @@
+    //echo "<tr class='row2'>";
+
+		// Формуємо з чисел календаря ($week[$i][$j]) строку виду - d.m.y
+		$porivnalne_znachennya='';  
+		echo "<br>";
+		if(!$week[$i][0]) {  
+			//$fgfgf = strtotime ('-6 day' , strtotime($week[$i][6].'.3.2013'));
+			$fgfgf = strtotime ('-6 day' , strtotime($week[$i][6].".".$mesac.".".$rik));
+			//$week[$i][0] = $week[$i][6] - 7; 
+			$ddd = date('d', $fgfgf);
+			$mmm = date('m', $fgfgf);
+			$yyy = date('Y', $fgfgf); 
+			//echo $week[$i][0] = $ddd.'.'.$mmm.'.'.$yyy;
+			//echo $fgfgf;
+			$porivnalne_znachennya=$ddd.'.'.$mmm.'.'.$yyy;
+		}
+
+		
+		
+//echo $week[$i][0].".".$mesac.".".$rik." - ".$week[$i][6].".".$mesac.".".$rik.'<br>';		
+	if($porivnalne_znachennya == '25.02.2013') {
+	echo '<tr bgcolor="#A6A6A6">';
+	} else {
+	echo '<tr>';	
+	}

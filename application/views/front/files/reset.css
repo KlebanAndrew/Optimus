@@ -1,0 +1,64 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display:block;}
+audio, canvas, video {display:inline-block;}
+audio:not([controls]) {display:none;}
+[hidden] {display:none;}
+
+
+html {font-size:100%;}
+
+html, button, input, select, textarea {font-family:"Myriad Pro"; color:black;}
+
+body {margin:0; padding:20px 30px; background:#b1b3b7; background:-moz-linear-gradient(left,  #b1b3b7 0%, #cdd1d5 13%, #e1e7ea 46%, #cdd1d5 87%, #b1b3b7 100%); background:-webkit-gradient(linear, left top, right top, color-stop(0%,#b1b3b7), color-stop(13%,#cdd1d5), color-stop(46%,#e1e7ea), color-stop(87%,#cdd1d5), color-stop(100%,#b1b3b7)); background:-webkit-linear-gradient(left,  #b1b3b7 0%,#cdd1d5 13%,#e1e7ea 46%,#cdd1d5 87%,#b1b3b7 100%); background:linear-gradient(left,  #b1b3b7 0%,#cdd1d5 13%,#e1e7ea 46%,#cdd1d5 87%,#b1b3b7 100%);}
+
+::-moz-selection {background:#757980; color:#fff; text-shadow:none;}
+::selection {background:#757980; color:#fff; text-shadow:none;}
+
+
+a {color:#00e;}
+a:visited {color: #551a8b; }
+a:hover {color:#06e;}
+a:focus {outline:thin dotted;}
+a:hover, a:active {outline:0;}
+
+
+h1, h2, h3, h4, h5, h6 {margin:0; padding:0;}
+
+
+ul, ol {margin:1em 0; padding:0 0 0 40px;}
+dd {margin:0 0 0 40px;}
+nav ul, nav ol {list-style:none; list-style-image:none; margin:0; padding:0;}
+
+img {border:0; vertical-align:middle;}
+
+
+form {margin:0;}
+fieldset {border:0; margin:0; padding:0;}
+label {cursor:pointer;}
+button, input, select, textarea {font-size:100%; margin:0; vertical-align:baseline;}
+button, input {line-height:normal;}
+button, input[type="button"], input[type="reset"], input[type="submit"] {cursor:pointer; -webkit-appearance:button;}
+button[disabled], input[disabled] {cursor:default;}
+
+input[type="checkbox"], input[type="radio"] {box-sizing:border-box; padding: 0;}
+input[type="search"] {-webkit-appearance:textfield; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {-webkit-appearance:none;}
+
+button::-moz-focus-inner, input::-moz-focus-inner {border:0; padding:0;}
+textarea {overflow:auto; vertical-align:top; resize:vertical;}
+
+input:valid, textarea:valid {}
+input:invalid, textarea:invalid {background-color:#f0dddd;}
+
+
+
+table {border-collapse:collapse; border-spacing:0;}
+td {vertical-align:top;}
+
+
+
+.hidden {display:none !important; visibility:hidden;}
+
+
+.clearfix:before, .clearfix:after {content:""; display:table;}
+.clearfix:after {clear:both;}
+.clearfix {*zoom:1;}

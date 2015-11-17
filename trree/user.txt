@@ -1,0 +1,90 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.3
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Feb 21, 2013 at 11:37 AM
+-- Server version: 5.1.40
+-- PHP Version: 5.3.13
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `cod_zvity`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `login` char(10) DEFAULT NULL,
+  `pass` char(35) DEFAULT NULL,
+  `email` char(40) DEFAULT NULL,
+  `permissions` int(11) DEFAULT NULL,
+  `name` char(30) DEFAULT NULL,
+  `tel` char(10) DEFAULT NULL,
+  `nomer_debitora` varchar(10) DEFAULT NULL,
+  `tab_nomer` varchar(10) DEFAULT NULL,
+  `description` varchar(255) DEFAULT NULL,
+  `posada` varchar(100) DEFAULT NULL,
+  `sluzhba` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=cp1251 AUTO_INCREMENT=77 ;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `login`, `pass`, `email`, `permissions`, `name`, `tel`, `nomer_debitora`, `tab_nomer`, `description`, `posada`, `sluzhba`) VALUES
+(33, 'us8409', 'b18e8fb514012229891cf024b6436526', 'vitalij.pokynchereda@if.energy.gov.ua', NULL, 'Покиньчереда В.Л.', '4628', '', '8409', 'Відділ стратегічного та опертивного упр.', 'Економіст', NULL),
+(20, 'lord', 'c445cf90acf6bd603edbb5cf77f1880d', 'andrij.vospalenko@if.energy.gov.ua', NULL, 'Воспаленко А.І.', '4173', '', '2930', 'Група по роботі з білінговими системами', 'Інженер-програміст', NULL),
+(18, 'us7956', '97c9495c566a89a78d79bd6b74aa220c', 'Dmytro.Berezovsky@if.energy.gov.ua', NULL, 'Березовський Д.І.', '4236', '', '7956', 'Група по роботі з білінговими системами', 'Інженер-програміст', NULL),
+(14, 'asucy', 'd68a18275455ae3eaa2c291eebb46e6d', 'yuriy.chopey@if.energy.gov.ua', NULL, 'Чопей Ю.М.', '4118', '', '8403', 'Група по роботі з ПЗ технічних служб', 'Інженер-програміст', NULL),
+(16, 'mobyty', '280c6c22a4b02dad1789a2b1af0664f3', 'volodymyr.fedyk@if.energy.gov.ua', NULL, 'Федик В.М.', '4125', '', '276', 'Управління дирекції з інвест.,розв.та ІТ', 'Заступник директора з розвитку ІТ', NULL),
+(17, 'Asuvr', '194f2e8211128c6ea9fdad9ba39a4527', 'vitalij.rysniuk@if.energy.gov.ua', NULL, 'Риснюк В.П.', '4120', '', '2154', 'Служба розробки програмного забезпечення', 'Начальник служби', NULL),
+(21, 'asuhi', '9deac1b9659067d923084003d2ee75ff', 'ivan.kholodniak@if.energy.gov.ua', NULL, 'Холодняк І.Б.', '4615', '', '6347', 'Група по роботі з прикладним ПЗ', 'Інженер-програміст', NULL),
+(22, 'asupm', '18cc081e88dc169f925616b4e8645213', 'mykhaylo.petriv@if.energy.gov.ua', NULL, 'Петрів М.Б.', '4133', '', '6957', 'Група по роботі з прикладним ПЗ', 'Інженер-програміст', NULL),
+(23, 'asuev', '430bf43d847740937723da216da74a1d', 'yevhen.rohozianskyj@if.energy.gov.ua', NULL, 'Рогозянський Є.В.', 'нескажу', '', '6909', 'Група по роботі з прикладним ПЗ', 'Інженер-програміст - керівник групи', NULL),
+(31, 'us274', 'd947bf06a885db0d477d707121934ff8', 'Sergii.Rabarskyi@if.energy.gov.ua', NULL, 'Рабарський С.Й.', '4390', '', '274', 'Служба ЗДТУ', 'Начальник служби', NULL),
+(32, 'konan', 'c8d8e0fac1aa1193d9308e9cc93e386a', 'roman.savchak@if.energy.gov.ua', NULL, 'Савчак Р.Б.', '4411', '', '275', 'Група системних адміністраторів', 'Інженер-програміст - керівник групи', NULL),
+(30, 'us429', 'f0853db28020d0cb482d52f6732ab346', 'yaroslav.onufreychuk@if.energy.gov.ua', NULL, 'Онуфрейчук Я.В.', '4239', '', '429', 'Відділ з моделювання бізнес-процесів', 'Начальник відділу', NULL),
+(29, 'asuky', 'e75be3609189aaa1a236eb74326c2ef4', 'yaroslav.kostyshyn@if.energy.gov.ua', NULL, 'Костишин Я.Г.', '4318', '', '172', 'Управління дирекції з інвест.,розв.та ІТ', 'Заст. дир. з обсл.ІТ-нач.сл.обсл.ІТ', NULL),
+(28, 'us8610', '1b7663ccddfbba71a405f122e117f95c', 'Roman.Vintoniak@if.energy.gov.ua', NULL, 'Вінтоняк Р.В.', '4656', '', '8610', 'Група по роботі з білінговими системами', 'Інженер-програміст', NULL),
+(34, 'Kit', 'ef18a01cf787136e4334cb6e0febde2a', 'andrij.pytsko@if.energy.gov.ua', NULL, 'Пицко А.А.', '4344', '', '307', 'Група системних адміністраторів', 'Інженер-програміст', NULL),
+(35, 'asuyv', '6534e5abdfb7e4c849b4714611b54e5f', 'volodymyr.yaremko@if.energy.gov.ua', NULL, 'Яремко В.Я.', '4115', '', '176', 'Група сервісного обсл.інфраструкт. ІТ', 'Інженер-керівник групи', NULL),
+(36, 'asutp', '2fe69d1442a908dfd62735edf206911f', 'taras.pytsko@if.energy.gov.ua', NULL, 'Пицко Т.А.', '4111', '', '6906', 'Група сервісного обсл.інфраструкт. ІТ', 'Налагоджувальник електронної техніки', NULL),
+(45, 'us38', 'a5771bce93e200c36f7cd9dfd0e5deaa', 'violetta.andrusiak@if.energy.gov.ua', NULL, 'Андрусяк В.Я.', '4224', '', '38', 'Група фінанси', 'Економіст-керівник групи', NULL),
+(38, 'us3583', '0330d889462139ae5461d7e6f5f7d712', 'Tetyana.Fedyk@if.energy.gov.ua', NULL, 'Федик Т.В.', '4239', '', '3583', 'Відділ з моделювання бізнес-процесів', 'Інженер з якості', NULL),
+(39, 'us8882', '485c8d914826aabf65fce73f1777ec2e', 'nataliya.nazar@if.energy.gov.ua', NULL, 'Назар Н.Б.', '4207', '', '8882', 'Відділ стратегічного та опертивного упр.', 'Фахівець з управління проектами', NULL),
+(40, 'us4049', '89a4779d3836ea432f7ea074e522a17e', 'andrij.grabchuk@if.energy.gov.ua', NULL, 'Грабчук А.Б.', '4599', '', '4049', 'Управління дирекції з інвест.,розв.та ІТ', 'Заступник директора з розвитку', NULL),
+(41, 'us8327', '202cb962ac59075b964b07152d234b70', 'rostyslav.tarantiuk@if.energy.gov.ua', NULL, 'Тарантюк Р.О.', '4239', '', '8327', 'Відділ з моделювання бізнес-процесів', 'Інженер', NULL),
+(42, 'roma', '08bf46a9c597a52568a433c6ba700343', 'roman.pylypiv@if.energy.gov.ua', NULL, 'Пилипів Р.Р.', '4111', '', '6952', 'Група сервісного обсл.інфраструкт. ІТ', 'Налагоджувальник електронної техніки', NULL),
+(43, 'us9043', 'fdfb747f3811c255ad0e32fce91d72df', 'anton.bedzir@if.energy.gov.ua', NULL, 'Бедзір А.О.', '4239', '', '9043', 'Відділ з моделювання бізнес-процесів', 'Інженер', NULL),
+(44, 'us8474', '42ce2f91530a3e22f4112ac9c069de75', 'Andrij.Blinnikov@if.energy.gov.ua', NULL, 'Блінніков А.В.', '4207', '', '8474', 'Відділ з моделювання бізнес-процесів', 'Інженер', NULL),
+(46, 'us7297', '142536b9b535b78e681c11b0195d962f', 'oksana.kushyna@if.energy.gov.ua', NULL, 'Кушина О.О.', '4458', '', '7297', 'Відділ стратегічного та опертивного упр.', 'Начальник відділу', NULL),
+(47, 'us212', '1534b76d325a8f591b52d302e7181331', 'vasyl.kozan@if.energy.gov.ua', NULL, 'Козань В.Б.', '4222', '', '212', 'Група ТОРО', 'Інженер-керівник групи', NULL),
+(48, 'us7887', 'cdb3581c8983cde6fc5fae84ac0a79b9', 'vitalij.chernyk@if.energy.gov.ua', NULL, 'Черник В.Ю.', '4223', '', '7887', 'Відділ супроводу і розвитку СУП', 'Інженер-програміст (базис)', NULL),
+(49, 'us4253', 'cbd86c69ce54479dfc7442ccc8be58b8', 'svitlana.demchyna@if.energy.gov.ua', NULL, 'Демчина С.М.', '4217', '', '4253', 'Група управління матеріальними потоками', 'Економіст - керівник групи', NULL),
+(50, 'us9012', 'e7a553fc98cb4d5e01b9a5445e51121b', 'vadym.zakharchenko@if.energy.gov.ua', NULL, 'Захарченко В.В.', '4217', '', '9012', 'Група управління матеріальними потоками', 'Інженер-програміст', NULL),
+(51, 'us151', 'a8f15eda80c50adb0e71943adc8015cf', 'ZHANNA.HYSHTA@IF.ENERGY.GOV.UA', NULL, 'Гишта Ж.М.', '4231', '', '151', 'Відділ супроводу і розвитку СУП', 'Начальник відділу', NULL),
+(52, 'olegs', '46a45427554298f00fbe5c086a18c201', 'oleh.sereda@if.energy.gov.ua', NULL, 'Середа О.С.', '4221', '', '7811', 'Група фінанси', 'Інженер-програміст', NULL),
+(53, 'us252', 'be0d1b3a3aed7789407a83c3d68e962e', 'oksana.kasijan@if.energy.gov.ua', NULL, 'Касіян О.М.', '4219', '', '252', 'Група управління персоналом', 'Інженер-керівник групи', NULL),
+(54, 'asuad', 'a9373ea8f0aa54642bdff6aa47bbca7c', 'andrij.denysiuk@if.energy.gov.ua', NULL, 'Денисюк А.О.', '4222', '', '272', 'Група ТОРО', 'Інженер-програміст', NULL),
+(55, 'us8342', '0f2e0f55fd0c80dd4a7439a642bbc7de', 'Omar.Stadnyk@if.energy.gov.ua', NULL, 'Стадник О.Г.', '4220', '', '8342', 'Група контролінг', 'Інженер-програміст', NULL),
+(56, 'asubm', '5b78b5467678a78c622af8e6bf635ef7', 'bohdan.melnytskyj@if.energy.gov.ua', NULL, 'Мельницький Б.Й.', '4225', '', '289', 'Група фінанси', 'Інженер-програміст', NULL),
+(75, 'fantom', 'fbe1f0501c204002b9d7142488265e5f', 'volodymyr.abramyak@if.energy.gov.ua', NULL, 'Абрам&#039;як В.В.', '4255', '', '133', 'Група по роботі з білінговими системами', 'Інженер-програміст - керівник групи', NULL),
+(58, 'us6919', 'c4ca4238a0b923820dcc509a6f75849b', 'orysia.romanenko@if.energy.gov.ua', NULL, 'Романенко О.В.', '4223', '', '6919', 'Група контролінг', 'Інженер-керівник групи', NULL),
+(59, 'asuss', '272dea4de4fab374487fc8be49b8ea83', 'yaroslav.yaremko@if.energy.gov.ua', NULL, 'Яремко Я.В.', '4116', '', '316', 'Група сервісного обсл.інфраструкт. ІТ', 'Налагоджувальник електронної техніки', NULL),
+(61, 'us4007', 'ab8df9f7733db5611fd53748f1db282e', 'olga.semenchuk@if.energy.gov.ua', NULL, 'Семенчук О.В.', '4230', '', '4007', 'Керівництво', 'Директор з інвестицій, розвитку та ІТ', NULL),
+(62, 'us281', 'e3796ae838835da0b6f6ea37bcf8bcb7', 'myroslava.zhybak@if.energy.gov.ua', NULL, 'Жибак М.Є.', '4290', '', '281', 'Служба ЗДТУ', 'Технік', NULL),
+(63, 'us8408', '257deb66f5366aab34a23d5fd0571da4', 'ivan.semankiv@if.energy.gov.ua', NULL, 'Семаньків І.П.', '4391', '', '8408', 'Служба ЗДТУ', 'Заступник начальника', NULL),
+(64, 'us8405', '534b44a19bf18d20b71ecc4eb77c572f', 'yurij.dobrin@if.energy.gov.ua', NULL, 'Добрін Ю.М.', '4308', '', '8405', 'Група центрального вузла зв"язку (ЦВЗ)', 'Інженер-кер.групи центр.вузла зв"язку', NULL),
+(66, 'us265', 'e56954b4f6347e897f954495eab16a88', 'anatolij.pankevych@if.energy.gov.ua', NULL, 'Панкевич А.Б.', '4189', '', '265', 'Служба АСКТП', 'Провідний інженер', NULL),
+(72, 'us7782', 'ac5c482277858d6fe45065d0a3f92b0c', 'yaroslav.kachan@if.energy.gov.ua', NULL, 'Качан Я.О.', '4218', '', '7782', 'Група збут', 'Економіст - керівник групи', NULL),
+(69, 'Us284', '46ba9f2a6976570b0353203ec4474217', 'leonid.yurevych@if.energy.gov.ua', NULL, 'Юревич Л.В.', '4490', '', '284', 'Служба АСКТП', 'Начальник служби', NULL),
+(70, 'Us266', '3728973d033966ee98d34be8ffde9fbd', '', NULL, 'Бондарчук Ю.М.', '4190', '', '266', 'Лабораторія з експл.операт-інформ.компл.', 'Завідувач лабораторії', NULL),
+(71, 'asuua', 'ceb8447cc4ab78d2ec34cd9f11e4bed2', 'yurij.andrushko@if.energy.gov.ua', NULL, 'Андрушко Ю.Р.', '4212', '', '331', 'Відділ супроводу і розвитку СУП', 'Заступник начальника', NULL);

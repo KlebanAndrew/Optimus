@@ -1,0 +1,83 @@
+#mes_1 {
+	left: 600px;
+	position:relative;  
+	font-size: 18px; 
+	font-family: Century Gothic,Myriad Pro,Arial,Helvetica,sans-serif; 
+	color: #F00; 
+	font-weight:bold; 
+	width: 250px;
+}
+
+#mes_2 {
+	left: 600px; 
+	top: -260px; 
+	position:relative;  
+	font-size: 18px; 
+	font-family: Century Gothic,Myriad Pro,Arial,Helvetica,sans-serif; 
+	color: #F00; 
+	font-weight:bold; 
+	width: 250px;
+}
+
+
+.row {
+	height:1%;
+	overflow:hidden;
+	padding-bottom:7px;
+}
+.row label {
+	float:left;
+	width:150px;
+	padding-left:195px;
+	padding-top:5px;
+	font:12px Tahoma, Arial, Geneva;
+}
+.row input {
+	float:left;
+	width:200px;
+	padding:0 5px;
+	margin:0;
+	font:12px Tahoma, Arial, Geneva;
+	height:20px;
+	border:1px solid #d9d6d0;
+	border-top:1px solid #bab7b4;
+	background-color:#fff;
+}
+
+input.text {
+	width:120px;
+}
+
+#search {
+	padding-left:425px;
+	padding-top:5px;
+	font-size:1.625em;
+	font:16px/1.5 "PT Sans",Arial,sans-serif;
+}
+
+#search a {
+	cursor: pointer;
+}
+
+#do_reg {
+	margin-left:380px;
+}
+
+
+.person {
+	margin-bottom:5px;
+}
+
+.person:hover {
+color: #093;
+	background-color: #DBD7D9;
+    cursor: pointer;
+}
+
+#personSearch_loader{
+	width: 150px;
+	height:100px;	
+	margin: 0 auto;
+	margin-top:100px;
+}
+

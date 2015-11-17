@@ -1,0 +1,126 @@
+
+.grey {
+    color: #fef4e9;
+    border: solid 1px #da7c0c;
+    background: #615D5C;
+    background: -webkit-gradient(linear, left top, left bottom, from(#615d5c), to(rgb(57, 55, 56)));
+    background: -moz-linear-gradient(top, #f0ebe9, #aeac8e);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+
+.but{
+    font:15px Calibri, Arial, sans-serif;
+
+    /* A semi-transparent text shadow */
+    text-shadow:1px 1px 0 rgba(255,255,255,0.4);
+
+    /* Overriding the default underline styling of the links */
+    text-decoration:none !important;
+    white-space:nowrap;
+
+    display:inline-block;
+    vertical-align:baseline;
+    position:relative;
+    cursor:pointer;
+    padding:10px 20px;
+
+    background-repeat:no-repeat;
+
+    /* The following two rules are fallbacks, in case
+       the browser does not support multiple backgrounds. */
+
+    background-position:bottom left;
+    background-image:url('button_bg.png');
+
+    /* Multiple backgrounds version. The background images
+       are defined individually in color classes */
+
+    background-position:bottom left, top right, 0 0, 0 0;
+    background-clip:border-box;
+
+    /* Applying a default border raidus of 8px */
+
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+
+    /* A 1px highlight inside of the button */
+
+    -moz-box-shadow:0 0 1px #fff inset;
+    -webkit-box-shadow:0 0 1px #fff inset;
+    box-shadow:0 0 1px #fff inset;
+
+    /* Animating the background positions with CSS3 */
+    /* Currently works only in Safari/Chrome */
+
+    -webkit-transition:background-position 1s;
+    -moz-transition:background-position 1s;
+    transition:background-position 1s;
+}
+
+.but:hover{
+
+    /* The first rule is a fallback, in case the browser
+       does not support multiple backgrounds
+    */
+
+    background-position:top left;
+    background-position:top left, bottom right, 0 0, 0 0;
+}
+
+.but:active{
+    /* Moving the button 1px to the bottom when clicked */
+    bottom:-1px;
+}
+
+/* The three buttons sizes */
+
+.but.big		{ font-size:30px;}
+.but.medium	{ font-size:18px;}
+.but.small	{ font-size:13px;}
+
+/* A more rounded button */
+
+.but.rounded{
+    -moz-border-radius:4em;
+    -webkit-border-radius:4em;
+    border-radius:4em;
+}
+
+/* Orange Button */
+
+.orange.but{
+    color: #000000 !important;
+    border:1px solid #bea280 !important;
+    background-color: #e38d27;
+
+    background-image:url('button_bg.png'), url('button_bg.png'), -moz-radial-gradient(center bottom, circle, rgba(232,189,45,1) 0,rgba(232,189,45,0) 100px),-moz-linear-gradient(#f1982f, #d4821f);
+    background-image:url('button_bg.png'), url('button_bg.png'), -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100, from(rgba(232,189,45,1)), to(rgba(232,189,45,0))),-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1982f), to(#d4821f));
+}
+
+.orange.but:hover{
+    background-color:#ec9732;
+
+    background-image:url('css/button_bg.png'), url('css/button_bg.png'), -moz-radial-gradient(center bottom, circle, rgba(241,192,52,1) 0,rgba(241,192,52,0) 100px),-moz-linear-gradient(#f9a746, #e18f2b);
+    background-image:url('button_bg.png'), url('button_bg.png'), -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100, from(rgba(241,192,52,1)), to(rgba(241,192,52,0))),-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9a746), to(#e18f2b));
+}
+.but:disabled{
+    cursor: not-allowed;
+    color: #fef4e9;
+    border: solid 1px #da7c0c;
+    background: #615D5C;
+    background-color:grey;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+/* ־בכאסעü הכÿ פאיכף create_zavd.php
+/
+/
+*/
+#secretar_list li{
+    clear:both;
+    display:block;
+    margin-top: 5px;
+}
+.del_but{
+    float:right;
+}

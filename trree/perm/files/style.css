@@ -1,0 +1,281 @@
+html { height:100% }
+
+body {
+    min-height:100%; 
+    height:auto !important; 
+    height:100%;
+    font-family:Tahoma; 
+    font-size:11px; 
+    color:#666666;
+    position:relative
+}
+
+#footer { 
+    position:absolute;
+    bottom:0; 
+    left:0 
+}
+p {
+	margin:5px 0px;
+}
+.clear {clear:both}
+a {outline: medium none}
+a:link {text-decoration:underline; color:#0379A1}
+a:visited {text-decoration:underline; color:#1379A1}
+a.external {background: url("../images/external.png") no-repeat scroll right center transparent; padding: 0 13px 0 0;}
+a.link {cursor:pointer; text-decoration:underline; color:#0379A1}
+
+#dumper {font-size:11px}
+#dumper select {width:200px; padding:1px}
+#dumper a {color:#809E9E}
+#dumper .text {
+-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+    padding:2px; 
+    border:1px solid #ccc; 
+    width:190px
+}
+#dumper .submit {height:30px; min-width:120px; border:1px solid #D9D7D7; background:#F9F9F9; cursor:pointer}
+#dumper fieldset {border:1px solid #ccc; padding:10px; margin:10px 0px}
+#dumper fieldset legend {position:relative}
+#dumper fieldset legend input {position:relative; top:3px; margin-right:5px}
+
+table.apt {border:1px solid #C9C9C9; margin-bottom:10px}
+table.apt th {text-shadow: 0 1px 0 #666666; padding:5px; text-align:left; background:#7799BB; color:#fff}
+table.apt td {padding:2px 5px}
+
+
+
+span.error {font-size: 11px; color:#ff0000}
+
+.button-left {outline:none; display:inline-block; height:27px; background:url(../images/button-left.png) left top no-repeat}
+input.button-right {cursor:pointer; outline:none; font-family: Arial; font-size: 12px; text-shadow: 0px 1px 0 #F4F4F3; height:27px; color:#505050; padding:0px 15px; border:none; background:url(../images/button-right.png) right top no-repeat}
+a.button-right {display:inline-block; text-decoration:none !important; cursor:pointer; outline:none; font-family: Arial; font-size: 12px; text-shadow: 0px 1px 0 #F4F4F3; height:33px; color:#505050 !important; line-height: 29px; padding:0px 15px; border:none; background:url(../images/button-right.png) right top no-repeat}
+
+.right {float:right}
+.left {float:left}
+
+.header {background:#eee; text-shadow: 1px 1px 0 #FFFFFF;}
+.header a {color:#666666; background: url("../images/external.png") no-repeat scroll right center transparent; padding: 0 13px 0 0;}
+
+.header a.folder {background: url("../images/folder.png") no-repeat scroll left center transparent; padding: 0  0 0 20px;}
+
+
+#settings-left {
+    min-height:500px; 
+    padding:10px; 
+    background:#ddd; 
+    border-right:1px solid #ccc; 
+    width:200px; 
+    float:left
+}
+
+#settings-left ul li {
+    background: url("../images/hr.gif") repeat-x scroll bottom transparent;
+    padding:10px;
+}
+
+#settings-left ul li a {
+    text-shadow:0px 1px 0px #eee
+}
+
+#settings-left ul li a.selected {
+    font-weight:bold
+}
+
+
+
+
+
+#settings-right {
+    margin-left:20px; 
+    float:left
+}
+
+
+#content {position:relative; padding:10px 10px 50px 10px}
+#benckmark {padding:10px}
+#message {margin-bottom:10px}
+#message  div {padding:5px; margin:2px 0px}
+#message  div.greenMessage {background:#81C909; border:1px solid #72B504; color:#fff}
+#message  div.redMessage {background:#FF4520; border:1px solid #E5300D; color:#fff}
+
+.links a {padding:0px 3px}
+
+#breadcrumbs {line-height:25px}
+#buttons {margin:10px 0px; }
+.browse {margin:10px 0px; clear:both}
+
+.buttons {margin:15px 0px; /*float:right; text-align:right*/}
+.rows {float:right; text-align:right}
+
+table.browseTable {border:1px solid #A4BED4; border-collapse:collapse; font-size:11px}
+table.browseTable thead tr, tr.search {background:#D3E7FF}
+table.browseTable thead th, tr.search td {border:1px solid #A4BED4; padding:0px !important}
+table.browseTable thead th div {text-shadow:1px 1px 0px #fff; padding:3px; border-left:1px solid #fff; border-top:1px solid #fff}
+
+table.browseTable tr.search td div {padding:3px; border-left:1px solid #fff; border-top:1px solid #fff; height:20px}
+table.browseTable tr.search input, table.browseTable tr.search select {font-family: Verdana; font-size:12px; padding:1px; width:98%; margin:0px auto; border:1px solid #ccc}
+
+
+.even {background-color:#E9EFF3}
+
+
+table.browseTable tr.odd {background-color: #E3EFFF}
+table.browseTable td {padding:4px; border-bottom:1px solid #ccc}
+
+.editor {width:100%}
+.editor-toolbar {height:27px}
+.editor-toolbar .active {background-color:#F0F0EE; border-bottom-color:#F0F0EE; color:#333333;}
+.buttonHTML, .buttonPreview{-moz-border-radius-bottomleft:0;-moz-border-radius-bottomright:0;-moz-border-radius-topleft:3px;-moz-border-radius-topright:3px;border-color:#CCC;border-style:solid;border-width:1px;cursor:pointer;font-size:12px;height:15px;display:block;margin:5px 5px 0px 0px;float:left;padding:4px 15px 2px;border-bottom:none; }
+
+.wysiwyg {}
+.wysiwyg textarea {font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif; font-size: 13px; margin:0px auto; border: 1px solid #ccc; width: 99%}
+
+
+
+
+#quicktags #ed_toolbar{padding:4px;background:#F0F0EE;border-bottom:1px solid #ccc;}
+.clear{clear:both}
+#ed_toolbar input{-moz-border-radius-bottomleft:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-topleft:3px;-moz-border-radius-topright:3px;border-style:solid;border-width:1px;display:inline-block;font-size:12px;line-height:18px;margin:3px 2px 4px;min-width:26px;padding:2px 4px;border-color:#BBBBBB;color:#464646;background:#F0F0EE}
+#ed_toolbar input:hover{background:#DDDDDD}
+
+
+
+div.column-right {width:100%; margin-left:-200px; float:right}
+div.column-right-wrap {margin:10px 20px; margin-left:220px}
+div.column-left {background:#F0F0EE; float:left; width:200px}
+div.column-left-wrap {margin:10px}
+div.column-left div.row .input {width:170px}
+div.column-left div.row select {width:178px}
+div.column-left div.row .date {background:#fff url('../images/calendar-ico.png') 159px center  no-repeat}
+
+
+div.row, div.row-option {margin-bottom:15px}
+div.sub-row {margin-bottom:5px}
+
+
+
+.checkbox {outline:none; position:relative; top:2px}
+.sort {
+    width:30px !important;
+    text-align:center
+}
+.input {	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;padding:2px; border:1px solid #ccc; width:350px}
+.textarea {	
+    -webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;font-family: Tahoma; font-size:12px; padding:3px; border:1px solid #ccc; min-width:350px}
+.column-left select, .select {	
+    -webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+    outline:none; 
+    font-family: Verdana; 
+    width:358px; 
+    padding:2px; 
+    border:1px solid #ccc
+}
+div.row .date {background:url('../images/calendar-ico.png') 340px center  no-repeat}
+div.row div.label {font-weight:bold; margin:2px 0px}
+div.row div.label span {color:#ff0000}
+div.row div.description {font-size:11px; margin:2px 0px}
+
+
+
+
+
+
+table.widjets td {text-align:center; vertical-align:top}
+table.positions {border:none}
+table.positions td  {
+    border:1px dashed #ddd;
+}
+
+table.widjets h2 {
+	font-size: 14px;
+	text-align: center;
+	color:#454545;
+	font-family:Arial;
+	text-transform:uppercase
+}
+
+
+#widjets {
+    width:180px;
+    margin:0px auto;
+}
+
+
+.wrapper {
+    margin: 20px auto;
+}
+
+table.widjets .label {
+    margin: 2px 20px;
+    font-size:11px;
+    font-weight:bold;
+    text-align: left;
+    color:#92D315;
+}
+
+.position {
+    border: solid 5px #DADADA;
+    margin: 2px 5px 10px 5px;
+    padding: 0px 5px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    min-height:33px;
+    background:#fff;
+
+}
+
+.left { float:left;}
+
+.widjet {
+    
+    color:#121212;
+    text-shadow:1px 1px 0px #fff;
+    min-width:100px;
+    border: solid 1px #B2B4B1;
+    font-weight: bold;
+    padding: 5px;
+    margin:3px auto;
+    text-align: left;
+    background: #F8F8F9;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    position:relative
+}
+
+.widjet .title {font-family: Arial; color:#718350; font-size:11px; font-weight:normal}
+
+
+.widjet .sub-menu {position:absolute; top:0px; right:6px; cursor:pointer; }
+
+.widjet .edit {margin-right:5px; font-size:11px; font-weight:normal; color:#0379A1; text-decoration:underline}
+.widjet .remove {font-size:11 px; font-family:Comic Sans MS; text-decoration:none}
+
+.dropHere {
+    background: #EAEEF3;
+    
+}
+
+.dropHere * {
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+
+.blue {padding:10px; background:#EAEFF3; border:1px solid #DCE2E6}
+
+
+

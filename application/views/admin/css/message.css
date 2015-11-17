@@ -1,0 +1,55 @@
+.notification {
+    border-radius: 6px 6px 6px 6px;
+    background-position: 10px 11px !important;
+    background-repeat: no-repeat !important;
+    border: 1px solid;
+    font-size: 13px;
+    margin: 0 0 15px;
+    padding: 0;
+    position: relative;
+    width: 99.8%;
+
+}
+.notification div {
+    display: block;
+    font-style: normal;
+    line-height: 1.5em;
+    padding: 10px 10px 10px 36px;
+}
+.notification .close {
+    color: #990000;
+    font-size: 9px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.error {
+    background: url("cross_circle.png") repeat scroll 0 0 #FFCECE;
+    border-color: #DF8F8F;
+    color: #665252;
+}
+.success {
+    background: url("tick_circle.png") repeat scroll 0 0 #D5FFCE;
+    border-color: #9ADF8F;
+    color: #556652;
+}
+
+.attention {
+    background: url("exclamation.png") repeat scroll 0 0 #EDE27E;
+    border-color: #C5B41B;
+    color: #665252;
+}
+
+
+#addUsers{
+	float: right;
+	padding: 10px 10px 10px 40px;
+    background-color: #CCCCCC;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #AAAAAA;
+    margin-right: 50px;
+    width: 200px;	 
+	 
+	 
+	 
+}

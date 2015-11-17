@@ -1,0 +1,34 @@
+zavdPlan==> процедура повторення завдань (оригінальна)
+BEGIN
+IF (SELECT COUNT(id_end_povtor) FROM zavdannya WHERE id_end_povtor = idZavdannya) = 0 THEN BEGIN
+  DECLARE dateStart DATE DEFAULT (SELECT z.date_begin FROM zavdannya z WHERE z.id = idZavdannya);
+  DECLARE dateEnd DATE DEFAULT (SELECT z.date_end_povtor FROM zavdannya z WHERE z.id = idZavdannya);
+  DECLARE datePt DATE DEFAULT (DATE_ADD(dateStart, INTERVAL (6-DAYOFWEEK(dateStart)) DAY));
+  IF dateEnd IS NOT NULL AND dateEnd > datePt THEN 
+    SET datePt = DATE_ADD(datePt, INTERVAL 7 DAY);
+    WHILE dateEnd > datePt DO 
+      INSERT INTO zavdannya (nazva,vud,strateg,rezult,date_begin,date_zapl_zaversh,
+      			     zapl_chas,data_fakt,chas_fakt,vlasnyk,vykonavets,mitky,
+                             prymitky,date_end_povtor,id_end_povtor) 
+      SELECT nazva,2,strateg,case when povtor_result then rezult else null end,
+        DATE_ADD(datePt, INTERVAL -4 DAY),
+        datePt,
+        null,null,null,vlasnyk,vykonavets,mitky,prymitky,date_end_povtor,idZavdannya 
+      FROM zavdannya z WHERE z.id = idZavdannya;
+      SET datePt = DATE_ADD(datePt, INTERVAL 7 DAY);
+    END WHILE;
+    IF dateEnd <= datePt THEN
+      INSERT INTO zavdannya (nazva,vud,strateg,rezult,date_begin,date_zapl_zaversh,zapl_chas,data_fakt,chas_fakt,vlasnyk,vykonavets,mitky,prymitky,date_end_povtor,id_end_povtor) 
+      SELECT nazva,2,strateg,CASE WHEN povtor_result THEN rezult ELSE NULL END,
+        DATE_ADD(datePt, INTERVAL -4 DAY),
+        dateEnd,
+        null,null,null,vlasnyk,vykonavets,mitky,prymitky,date_end_povtor,idZavdannya 
+      FROM zavdannya z WHERE z.id = idZavdannya;
+    END IF;
+  END IF;
+END;
+END IF;
+END
+
+
+

@@ -1,0 +1,487 @@
+body {
+	/* background-color: #fff; */
+	margin: 0px 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+	background: url("../register/img/background.jpg") repeat scroll 0 0 #F0F0F0;
+}
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+a:hover {
+	text-decoration: none;
+}	
+img{
+	border: none;
+}
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+#logo {
+	text-shadow: 1px 1px 2px black;
+	color: white;
+	font-weight: bold; 
+	line-height: 50px;
+	font-size: 50px; 
+	float:left; 
+	width: 204px; 
+	margin-left: 50px;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135,strength=3); 
+}
+
+
+/*нове меню*/
+a { outline:none; }
+
+/* COMMON CLASSES */
+.break { clear:both; }
+
+/* WRAPPER */
+#wrapper { width:800px; margin:40px auto; }
+
+/* CONTENT */
+#content { }
+#content p { margin:20px; }
+
+/* MENU */
+#menu { margin:0 0 0 0; width: 700px; margin-left: 25%;
+    }
+#menu ul { list-style:none; }
+#menu ul li { display:inline; float:left; margin-bottom:20px; }
+
+/* :first-child pseudo selector with rounded top left corner */
+#menu ul li:first-child a { -moz-border-radius-topleft: 12px; -webkit-border-top-left-radius:12px; }
+
+/* :last-child pseudo selector with rounded top right corner */
+#menu ul li:last-child a { -moz-border-radius-topright: 12px; -webkit-border-top-right-radius:12px; }
+
+/* background color set to RGBA, with opacity on 0.3 and also using text-shadow */
+#menu ul li a { padding:12px;
+    background: rgba(255,138,30,0.3); text-decoration: none; font: bold 14px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    color: #000000;
+    text-shadow: #eee 0px 0px 2px; }
+
+/* hover state shows a linear gradient and opacity it brought down to 0.9 and also shows a very slight grey gradient on top */
+#menu ul li a:hover { -moz-box-shadow: 0 -5px 10px #777; -webkit-box-shadow: 0 -5px 10px #777;
+    background: -webkit-gradient(
+        linear, right bottom, left top, color-stop(0, rgb(237,227,112)), color-stop(0.72, rgb(255,173,10))) !important;
+    background: -moz-linear-gradient(
+        right bottom, rgb(237,227,112) 0%, rgb(255,173,10) 72%) !important;
+    background-color:rgb(255,173,10) !important;
+    -moz-opacity:.90; filter:alpha(opacity=90); opacity:.90;
+
+}
+
+/* another RGBA background, now with an opacity of 0.8 */
+#active a { background: rgba(255,138,30,0.8) !important; }
+
+/* main contents with RGBA background (same colour as active tab) and three rounded corners */
+#main { clear:both; background: rgba(255,138,30,0.8); width:500px; margin-left:150px;
+    -moz-border-radius-topright: 12px; -moz-border-radius-bottomright: 12px; -moz-border-radius-bottomleft: 12px;
+    -webkit-border-top-right-radius:12px; -webkit-border-bottom-right-radius:12px; -webkit-border-bottom-left-radius:12px;}
+
+/* header with a text-shadow */
+#main h3 { text-transform:uppercase; padding:20px 0 0 20px; color:#eee; text-shadow: #000 0px 0px 2px; }
+#main p { padding-bottom:20px; color:#ddd; }
+/* старе меню
+#menu {
+    width: 555px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: 100px;
+
+
+    padding: 0;
+
+    background: url(images/navigation-bg.jpg) no-repeat left top;
+}
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li {
+    display: inline;
+    margin: 0px;
+}
+#menu ul li a {
+    height:29px;
+    display: block;
+    float: left;
+    padding: 12px 12px 0 12px;
+    font: bold 12px Arial;
+    color: #3B3B3B;
+    text-decoration: none;
+    background: url(images/navigation-separator.png) no-repeat right center;
+}
+
+#menu ul li a:hover {
+    color:#3B3B3B;
+    background: url(images/navigation-hover.png) repeat-x left top;
+}
+
+#menu ul li#active a {
+    color:#3B3B3B;
+    background: url(images/navigation-hover.png) repeat-x left top;
+
+}
+
+*/
+/**/
+#zagolovok {
+	width:200px; 
+	font-size: 19px; 
+	font-weight:normal; 
+	float:none;
+	margin-left:20px;
+	height:10px;
+	line-height: 45px;
+}
+
+
+#container{
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	/* -webkit-box-shadow: 0 0 8px #D0D0D0; */
+	background-color: white;
+	box-shadow: 0 0 10px #AAAAAA;
+}
+
+#body{
+	margin: 0 15px 0 15px;
+}
+
+#inner {
+	box-shadow: 0 0 10px #AAAAAA; 
+	width:880px; 
+	margin:0 auto; 
+	padding:35px;
+}
+
+
+p.footer{
+	text-align: right;
+	font-size: 11px;
+	border-top: 1px solid #D0D0D0;
+	line-height: 32px;
+	padding: 0 10px 0 10px;
+	margin: 20px 0 0 0;
+}
+
+
+	
+.login_name {
+	bottom: 48px; 
+	float: right;
+    padding-right: 10px;
+    position: relative;
+}
+
+	
+
+#load {
+    position: relative;
+    background-color: gray; /* for demonstration */
+}
+.ajax-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -32px; /* -1 * image width / 2 */
+    margin-top: -62px;  /* -1 * image height / 2 */
+    display: block;     
+}
+
+.load_background {
+	background: url("images/transparent.png") repeat scroll 0 0 transparent;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 200;
+}
+
+
+
+.button {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAABcCAYAAABugpUMAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMS8yMS8xMRTK2QYAAAAedEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzUuMasfSOsAAABpSURBVFiF7ZexDQBBCMPg9fsvS0PHDQFFpDgDWHYH2d0Th/suYRER/8ypoKOhYbK+Icn76SfrGwIECBAgQIAAdZZcDgbA82VV8dGLAfWT9Q0Nk/UNSd5PP1nfkOT9SN7P0NAwWd8Q4H4PLnBKWdfS9MUAAAAASUVORK5CYII=") repeat-x scroll 0 0 transparent;
+    border-color: #D9D9D9 #D9D9D9 #BFBFBF;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 1px rgba(0, 0, 0, 0.05);
+    color: #777777;
+    /*display: inline-block;*/
+	float:left;
+    font-size: 11px;
+    line-height: 16px;
+    margin-left: 5px;
+    padding: 3px 10px 2px;
+    text-decoration: none !important;
+    text-shadow: 0 1px 0 #FFFFFF;
+    text-transform: uppercase;
+	border-radius: 3px 3px 3px 3px;
+}
+
+.button:hover {
+    /*background-position: 0 -50px;*/
+    border-color: #CFCFCF #CFCFCF #B5B5B5;
+	border-color: #c0c0c09;
+    color: #3366CC;
+	cursor: pointer;
+}
+
+
+
+
+
+/* Створення завдання create_zavd.php */
+.form-control {
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.createZavd textarea{
+	width: 630px;
+}
+#textfield{
+	width: 630px;
+}
+
+/* Перегляд завдання pereglad_zavd.php*/
+.perDiv{
+	margin: 0px auto; 
+	width: 600px;
+}
+.perTab{
+	width: 100%;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	border: none;
+	border-collapse:collapse;
+}
+.perTab td{
+	border: solid 1px transparent;
+	border-bottom: solid 1px #c0c0c0;
+	padding: 5px 0px 5px 0px;
+}
+.perTab td:first-child{
+	width: 300px;
+	font-size: 16px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.perTab tr{
+}
+.perTab tr:hover {
+	/*font-weight: bold;*/
+}
+.perTab tr:hover td:first-child{
+	border-left: solid 1px #66afe9;
+}
+.perTab tr:hover td:last-child{
+	border-right: solid 1px #66afe9;
+}
+
+
+.perDiv_text span{
+	font-size: 16px;
+	font-weight: bold;
+	width: 300px;
+	float: left;
+	padding: 0px;
+	margin: 10px 0px 10px 10px;
+	display: table-cell;
+}
+.perDiv_text{
+	margin-left: 50px;
+	border-left: solid 1px transparent;
+	border-right: solid 1px transparent;
+	display: table-row;
+	border: solid 1px red;
+}
+.perDiv hr{
+	padding: 0px;
+	margin: 5px 0px 0px 0px;
+	border: none;
+	height: 1px;
+	background-color: #c0c0c0;
+}
+.perDiv_text:hover{
+	font-weight: bold;
+	border-left: solid 1px #c0c0c0;
+	border-right: solid 1px #c0c0c0;
+}
+.perDiv_text div{
+	display: table-cell;
+}
+/*Ефект анімації кнопок головного меню*/
+.light {
+    background: -moz-linear-gradient(-45deg, #ff6e00 0%, #ff6e00 40%, #ffffff 50%, #ff6e00 60%, #ff6e00 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ff6e00), color-stop(40%, #ff6e00), color-stop(50%, #ffffff), color-stop(60%, #ff6e00), color-stop(100%, #ff6e00));
+    background: -webkit-linear-gradient(-45deg, #ff6e00 0%, #ff6e00 40%, #ffffff 50%, #ff6e00 60%, #ff6e00 100%);
+    background: -o-linear-gradient(-45deg, #ff6e00 0%, #ff6e00 40%, #ffffff 50%, #ff6e00 60%, #ff6e00 100%);
+    background: -ms-linear-gradient(-45deg, #ff6e00 0%, #ff6e00 40%, #ffffff 50%, #ff6e00 60%, #ff6e00 100%);
+    background: linear-gradient(135deg, #ff6e00 0%, #ff6e00 40%, #ffffff 50%, #ff6e00 60%, #ff6e00 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff6e00', endColorstr='#ff6e00', GradientType=1);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: 300%;
+}
+
+.light:hover {
+    animation: light 0.7s;
+    -webkit-animation: light 0.7s;
+}
+
+
+
+@keyframes light {
+    0% {
+        background-position: -100px;
+    }
+    100% {
+        background-position: 0px;
+    }
+}
+
+/*випадаючий список для вибору замісників*/
+
+.search-select {
+    z-index:1;
+    width: 100px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:10%;
+}
+.search-select .field {
+    border-top: 1px solid #cbbeb9;
+    box-shadow: 0 1px 0px #f1efee;
+    height: 35px;
+    width: 180px;
+    line-height: 20px;
+    padding: 10px 5px;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.search-select input {
+    display: none;
+}
+.search-select input:checked + .select_menu {
+    opacity: 1;
+    top: 15px;
+}
+.search-select ul.select_menu {
+    -moz-transition-property: opacity, top;
+    -o-transition-property: opacity, top;
+    -webkit-transition-property: opacity, top;
+    transition-property: opacity, top;
+    -moz-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    opacity: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border-radius: 4px;
+    width: 220px;
+    position: relative;
+    top: 10px;
+    left: 1px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.search-select ul.select_menu li {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    height: 20px;
+    width: 200px;
+    line-height: 20px;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    color: #a79b97;
+    font-family: "PT Sans Caption";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    width: 200px;
+    color: #6F6A68;
+    border-bottom: 1px solid #ddd8d7;
+}
+
+.search-select ul.select_menu li:last-child {
+    border-radius: 0 0 4px 4px;
+}
+.search-select ul.select_menu li:not(.icon):hover {
+    margin-top: -1px;
+    background-color: #e38461;
+    color: white;
+    border-top: 1px solid #df6e52;
+    border-bottom: 1px solid #df6e52;
+}
+
+.search-select ul.select_menu li:last-child {
+    border: none;
+}
+
+.search-select label {
+    cursor: pointer;
+    height: 20px;
+    width: 200px;
+    line-height: 20px;
+    padding: 10px 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "PT Sans Caption";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+/*Класс перемикач для ховання непотрібних елементів*/
+.hide{
+    display:none;
+}
+

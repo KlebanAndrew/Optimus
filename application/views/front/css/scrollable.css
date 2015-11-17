@@ -1,0 +1,32 @@
+.scrollable {
+    /* required settings */
+    position:relative;
+    overflow:hidden;
+    width: 500px;
+    height:720px;
+}
+.scrollable .items {
+    /* this cannot be too large */
+    width:20000em;
+    position:absolute;
+    clear:both;
+}
+.items div {
+    float:left;
+    width:500px;
+}
+/* active item */
+.scrollable .active {
+    position:relative;
+    cursor:default;
+}
+li a.activep{
+	background:#000000;
+}
+.pagination a.active{
+	font-weight: bold;
+}
+
+.prew, .next {
+	cursor:pointer;
+}

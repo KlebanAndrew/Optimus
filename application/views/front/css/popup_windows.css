@@ -1,0 +1,72 @@
+.popup_window , .popup_window2 {
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+}
+.litebox-all {
+	margin: 0 auto;
+    top: 20%;
+    width: 542px;
+}
+#y_ord, #n_ord{
+	cursor:pointer;
+}
+
+.add {
+	cursor:pointer;
+}
+.popup_window {
+background: url(../images/transparent.png);
+}
+
+
+
+
+.popup_window2 .litebox {
+	width:350px;
+}
+.popup_window2 .lb-top {
+	height:51px;
+	background: url(../images/lb-top-2.png);
+	position:relative;
+}
+.content article .popup_window2 .lb-top h2 {
+	font:20px/44px 'AmpirDecoRegular', Arial;
+	color:#ecdeb9;
+	text-align:center;
+}
+.popup_window2 .lb-top .close {
+	top:3px;
+	font:11px/12px Tahoma, Arial, Geneva;
+}
+.popup_window2 .litebox ul {
+	background: url(../images/lb-rep-2.png) repeat-y center;
+	margin:0;
+	padding:9px 0 29px 29px;
+}
+.popup_window2 .lb-bot {
+	height:50px;
+	background: url(../images/lb-bot-2.png) no-repeat bottom center;
+}
+.popup_window2 .lb-bot .itogo {
+	width:72px;
+	height:28px;
+	line-height:4px;
+	margin-right:66px;
+}
+.popup_window2 .lb-bot .itogo span {
+	font-size:14px;
+	line-height:30px !important;
+}
+
+
+.popup_window2 .litebox-all {
+width:350px;
+}
+.popup_window2 {
+background: url(../images/transparent.png);
+}

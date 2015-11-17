@@ -1,0 +1,669 @@
+#zpm
+{
+width: 97% !important;
+}
+
+#zpm td
+{
+padding: 0.5em;
+}
+
+#zpm td.zbbcodeq
+{
+padding: 0.5em 0.5em 0em 0.5em;
+}
+
+#zpm td.zbbcodew
+{
+padding: 0em 0.5em 0.5em 0.5em;
+}
+
+#zpm h3
+{
+font-size: 1.9em;
+border-bottom: dotted 1px #E1E1E1;
+}
+h3
+{
+padding: 10px;
+}
+
+#zpm h2
+{
+font-size: 1.4em;
+border-bottom: dotted 1px #E1E1E1;
+}
+
+#zpm h4
+{
+font-size: 1.2em;
+border-bottom: dotted 1px #E1E1E1;
+margin-bottom: 0.7em;
+}
+
+#zpm .ztxt
+{
+font-size: 1.2em;
+padding: 10px 0px 10px 0px;
+line-height: 1.7em;
+}
+
+#zpm .zrat
+{
+width: 170px !important;
+}
+
+#zvote
+{
+display:inline;
+}
+
+td.zx
+{
+width: 150px !important;
+vertical-align:top;
+}
+
+td.zxa
+{
+width: 220px !important;
+vertical-align:top;
+}
+
+td.zxb
+{
+width: 150px !important;
+vertical-align:top;
+text-align:center;
+}
+
+.zinput {
+border: 1px solid #E6E6E6; 
+background: #F3F3F3; 
+color: #666; padding: 2px 0 2px 5px; 
+font: 11px Verdana;
+}
+
+.zinput:hover,
+.zinput:focus
+{
+color:#333; 
+border:1px 
+solid #777;
+}
+.zarea
+{
+border: 1px solid #E6E6E6; 
+background: #F3F3F3; 
+color: #666; padding: 2px 0 2px 5px; 
+font: 11px Verdana;
+}
+
+.bbcodes, .zbutton 
+{
+	background: #ffffff;
+	border: 1px solid #DFDFDF;
+	color: #4E4E4E;
+	font-size:11px;
+	font-weight: normal;
+	font-family: "Arial", Courier, monospace;
+	padding:1px 1px;
+	margin:1px 1px;
+	cursor:pointer;
+}
+
+.zbutton:hover 
+{
+background:#ececec; 
+color:#000;
+}
+.bbcodes:hover 
+{
+background:#ececec; 
+color:#000;
+}
+
+html:root .zbutton{padding:0px 0px 3px 0px;} /* to FF */
+
+
+div.zslogin
+{
+font-size:9px;
+text-align:right;
+}
+
+table.zzcomm
+{
+padding-top:20px;
+width: 97% !important;
+}
+
+#zcomm
+{
+width: 97% !important;
+}
+
+td.tcomm
+{
+font-size:12px;
+text-align:left;
+vertical-align:top;
+width: 100%;
+}
+
+td.lcomm
+{
+font-size:9px;
+letter-spacing:1px;
+text-align:center;
+vertical-align:top;
+width: 100px !important;
+padding:10px;
+}
+
+td.rcomm
+{
+font-size:11px;
+text-align:left;
+vertical-align:top;
+width: 100%;
+padding:10px;
+}
+
+td.bcomm
+{
+font-size:9px;
+text-align:right;
+vertical-align:top;
+width: 100%;
+}
+
+
+/*------------------------------------------------------------------*/
+/* Стили используемые в                 		            */
+/*------------------------------------------------------------------*/
+
+form {  PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 0px; 
+	PADDING-TOP: 0px;
+}
+
+/* 
+ * ========================================
+ * Вывод архива 
+ * ========================================
+ */
+.archives {
+	vertical-align: top;
+	font-family: "trebuchet ms", helvetica, sans-serif;
+	font-size:11px;
+	margin-top:6px;
+	margin-left:20px;
+	margin-bottom:10px;
+}
+.archives a {
+	font-family: "trebuchet ms", helvetica, sans-serif;
+	font-size:11px;
+	color:#43637E;
+}
+/* 
+ * ========================================
+ * Цитата и скрытый текст
+ * ========================================
+ */
+.title_quote {
+	background: #EFD3DE;
+	border: 1px dotted #D17A80;
+	border-bottom: 0;
+	color: #222;
+	font-weight: bold;
+	font-size: 10px;
+	margin: 8px auto 0 auto;
+	padding: 3px;
+}
+
+ .quote {
+	color: #000000;
+	FONT: 9pt "trebuchet ms", helvetica, sans-serif;
+	text-align:left;
+	background-color:#FAF2F5;
+	border-width:1px;
+	border-color:#CCCCCC;
+	border-style:dotted;
+	padding: 5px;
+	}
+/* 
+ * ========================================
+ * Teг CODE
+ * ========================================
+ */
+ .scriptcode {
+	color: #000000;
+	FONT: 9pt "trebuchet ms", helvetica, sans-serif;
+	text-align:left;
+	background-color:#FAF2F5;
+	border-width:1px;
+	border-color:#999999;
+	border-style:dotted;
+	padding: 5px;
+	}
+/* 
+ * ========================================
+ * Календарь 
+ * ========================================
+ */
+
+.weekday-active-v {
+	color: #0066FF;
+	font-family: "trebuchet ms", helvetica, sans-serif;
+	font-size:12px;
+}
+.day-active-v {
+	color: #0066FF;
+	font-family: "trebuchet ms", helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	background-color: #FAF2F5;
+}
+
+.calendar {
+	font-family:"trebuchet ms", helvetica, sans-serif;
+	font-size:12px;
+}
+.calendar td, th {
+	font-family:"trebuchet ms", helvetica, sans-serif;
+	font-size:12px;
+	text-decoration: none;
+	padding: 3px 3px 3px 3px;
+}
+
+.weekday {
+	color: #227CCE;
+	font-family:"trebuchet ms", helvetica, sans-serif;
+	font-size:12px;
+}
+.weekday-active {
+	color: #804040;
+	font-family:"trebuchet ms", helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	background-color: #FAF2F5; 
+}
+.day-active {
+	color: #0066FF;
+	font-family:"trebuchet ms", helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	background-color: #FAF2F5;
+}
+
+#calendar-layer
+{
+padding: 0em 0em 1.5em 0em;
+}
+
+.day-active a,
+.weekday-active a,
+.day-active-v a,
+.weekday-active-v a
+{
+text-decoration: none;
+}
+
+.monthlink {
+	color: #0066FF;
+	font-family: "trebuchet ms", helvetica, sans-serif;
+	font-size:11px;
+	text-decoration: none;
+}
+
+/* 
+ * ========================================
+ * Рейтинг 
+ * ========================================
+ */
+
+.rating {
+		color: #666666;
+		font-family: "trebuchet ms", helvetica, sans-serif;
+		font-size: 11px; 
+		width: 85px;
+		height: 16px;
+	}
+	.unit-rating{
+		list-style:none;
+		margin: 0px;
+		padding:0px;
+		width: 85px;
+		height: 16px;
+		position: relative;
+		background: url('../dleimages/rating.gif') top left repeat-x;
+	}
+	
+	.unit-rating li{
+	    text-indent: -90000px;
+		padding:0px;
+		margin:0px;
+		float: left;
+	}
+	.unit-rating li a{
+		display:block;
+		width:17px;
+		height: 16px;
+		text-decoration: none;
+		text-indent: -9000px;
+		z-index: 17;
+		position: absolute;
+		padding: 0px;
+	}
+	.unit-rating li a:hover{
+		background: url('../dleimages/rating.gif') left center;
+		z-index: 2;
+		left: 0px;
+	}
+	.unit-rating a.r1-unit{left: 0px;}
+	.unit-rating a.r1-unit:hover{width:17px;}
+	.unit-rating a.r2-unit{left:17px;}
+	.unit-rating a.r2-unit:hover{width: 34px;}
+	.unit-rating a.r3-unit{left: 34px;}
+	.unit-rating a.r3-unit:hover{width: 51px;}
+	.unit-rating a.r4-unit{left: 51px;}	
+	.unit-rating a.r4-unit:hover{width: 68px;}
+	.unit-rating a.r5-unit{left: 68px;}
+	.unit-rating a.r5-unit:hover{width: 85px;}
+	.unit-rating li.current-rating{
+		background: url('../dleimages/rating.gif') left bottom;
+		position: absolute;
+		height: 16px;
+		display: block;
+		text-indent: -9000px;
+		z-index: 1;
+}
+
+/* 
+ * ========================================
+ * BB коды
+ * ========================================
+ */ 
+
+.editor_button {
+	float:left;
+	cursor:pointer;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.editor_buttoncl {
+	float:left;
+	cursor:pointer;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-left: 1px solid #BBB;
+	border-right: 1px solid #BBB;
+}
+.editbclose {
+	float:right;
+	cursor:pointer;
+}
+
+/* 
+ * ========================================
+ * Дополнительные поля новостей
+ * ========================================
+ */ 
+
+.xfields textarea {
+width:500px; height:90px; font-family:"trebuchet ms", helvetica, sans-serif; font-size:11px; border:1px solid #E0E0E0;
+}
+.xfields input {
+width:250px; height:18px; font-family:"trebuchet ms", helvetica, sans-serif; font-size:11px; border:1px solid #E0E0E0;
+}
+.xfields select {
+height:18px; font-family:"trebuchet ms", helvetica, sans-serif; font-size:11px; border:1px solid #E0E0E0;
+}
+
+/* 
+ * ========================================
+ * Дополнительные поля профиля пользователей
+ * ========================================
+ */ 
+
+.xprofile textarea {
+width:499px; height:90px; font-family:"trebuchet ms", helvetica, sans-serif; font-size:11px; border:1px solid #E0E0E0;
+}
+.xprofile input {
+width:250px; height:18px; font-family:"trebuchet ms", helvetica, sans-serif; font-size:11px; border:1px solid #E0E0E0;
+}
+
+
+/* 
+ * ========================================
+ * Персональные сообщения
+ * ========================================
+ */ 
+
+.pm_head {
+	font: 10pt "trebuchet ms", helvetica, sans-serif; 
+}
+.pm_list {
+	color: #888888;
+	font-size: 11px;
+	font-family: "trebuchet ms",
+	}
+.pm_list a {
+	color: #9F0018;
+	font-size: 11px;
+	font-family: "trebuchet ms",
+}
+
+/* 
+ * ========================================
+ * Выпадающее меню
+ * ========================================
+ */ 
+
+#dropmenudiv
+{
+	border: 1px solid #c4c4c4;
+	font: normal 10px Verdana;
+	line-height: 20px;
+	margin: 2px;
+	background-color:#FFF;
+	filter: alpha(opacity=95, enabled=1) progid:DXImageTransform.Microsoft.Shadow(color=#cacaca, direction=135, strength=3);
+	font:11px Tahoma, Verdana;
+	color:#666;
+}
+
+#dropmenudiv a
+{
+	padding:4px;
+	display: block;
+	text-indent: 3px;
+	border: 1px solid #ffffff;
+	margin: 1px;
+	color: #666;
+	text-decoration: none;
+}
+
+#dropmenudiv a:hover
+{
+	background-color: #EFEFEF;
+	color: #096495;
+}
+
+/* 
+ * ========================================
+ * Опрос
+ * ========================================
+ */
+
+.vote  {
+	color: #717171;
+	font-size: 12px;
+	font-family: "trebuchet ms", helvetica, sans-serif;
+	text-align: left;
+}
+
+/* 
+ * ========================================
+ * Уведомление о получении новых PM
+ * ========================================
+ */
+
+#newpm {
+	position:absolute;
+	height:250px;
+	width:400px;
+	padding:4px;
+	background-color:#FDFDFD;
+	border:1px solid #BBB;
+	font-family: "trebuchet ms", helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 135%;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4);
+	}
+
+#newpmheader {
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	height:20px;
+	color: #000;
+	font-weight: bold;
+	background-color:#E3C0C0;
+	font-family: "trebuchet ms", helvetica, sans-serif;
+	font-size:11px;
+	cursor:move;
+	}
+
+#newpm a{
+	background: transparent;
+	color: #4D6A8A;
+	text-decoration: none;
+}
+
+#newpm a:hover{
+	background: transparent;
+	color: #4D6A8A;
+	text-decoration: underline;
+}
+/* 
+ * ========================================
+ * Ссылка на скачивание прикрепленного файла
+ * ========================================
+ */
+#attachment {
+	color: gray;
+	}
+
+/* 
+ * ========================================
+ * Поиск по сайту и результаты поиска
+ * ========================================
+ */
+
+#search
+
+{
+
+	background: #fff url(../dleimages/search_i.gif) top left no-repeat;
+
+	padding: 4px 0 4px 22px;
+
+	margin: 0;
+
+	font-size: 11px !important;
+
+	color: #b7b7b7;
+
+	width: 125px;
+
+	height: 13px;
+
+	border:1px dashed #aaa;
+
+}
+
+.inptext
+{
+	background: #fff;
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+	font-size: 11px !important;
+	color: #b7b7b7;
+	width: 500px;
+	height: 21px;
+	border:1px dashed #777;
+}
+.inptext_drop
+{
+	background: #fff;
+	padding: 4px 0 4px 0px;	
+	font-size: 11px !important;
+	color: #b7b7b7;
+	width: 500px;
+	border:1px dashed #777;
+}
+textarea
+{
+	background: #fff;
+	padding: 4px 0 4px 0px;
+	margin: 0;
+	font-size: 11px !important;
+	color: #b7b7b7;
+	width: 500px;
+	height: 130px;
+	border:1px dashed #777;
+}
+
+.textin {
+	font-family: "trebuchet ms", helvetica, sans-serif;font-size: 11px;
+	color:#00002C;
+	text-decoration: none;
+	}
+
+.sresult  {
+	text-align: justify;
+	font-family:"trebuchet ms", helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    LINE-HEIGHT: 16px;
+	font-size:12px;
+	color:#606D77;
+}
+
+.navigation {
+	color:#666;
+	border:0px;
+}
+
+.navigation a:link,
+.navigation a:visited,
+.navigation a:hover,
+.navigation a:active {
+	text-decoration:none;
+	color: #585858;
+	font-size: 10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid #E7E4E4;
+	padding:1px 7px;
+}
+
+.navigation a:hover {
+	color:#0099FF;
+	background-color: #F2F2F2;
+	border-top-color: #E7E4E4;
+	border-right-color: #E7E4E4;
+	border-bottom-color: #E7E4E4;
+	border-left-color: #E7E4E4;
+}
+
+.navigation span {
+	text-decoration:none;
+	background:#fff;
+	padding:1px 7px;
+	border:1px solid #E7E4E4;
+	color:#ccc;
+	font-size: 10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}

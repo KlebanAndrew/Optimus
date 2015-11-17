@@ -1,0 +1,10 @@
+DirectoryIndex index.html index.htm index.php
+
+Options -Indexes
+
+RewriteEngine on
+
+RewriteCond $1 !^(index\.php|static|user_guide|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
